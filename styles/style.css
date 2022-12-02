@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* form and body */
+form, body {
+    margin: auto;
+    padding-top: 2rem;
+    width: 70rem;
+    text-align: center;
+    background-color: aquamarine;
+}
+/* Layout */
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+/* Input */
+#firstName {
+    color: chocolate;
+    height: 3rem;
+}
+#surName {
+    color: chocolate;
+    height: 3rem;
+}
+#email {
+    color: chocolate;
+    height: 3rem;
+}
+button {
+    height: 3.5rem;
+}
+button:hover {
+    scale: 1.1;
+}
